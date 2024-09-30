@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendy Threads</title>
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--My css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Trendy Threads</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="C:\Users\Dharani Chandhar\Desktop\Ecommerce\contect.html">Contect</a></p>
+        </div>
+
+        
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-link">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="contect.html">Contect</a></p>
+        </div>
+    </div>
+
+   
+
+<!--contect us-->
+    <div class="contect-us">
+        <form class="Contect">
+            <h3>Name:</h3>
+            <input class="nameinput" type="text" id="search" placeholder="Enter Name">
+
+            <h3>Email:</h3>
+            <input class="emailinput" type="email" id="search" placeholder="Enter Email">
+
+            <h3>Mobile:</h3>
+            <input  class="mobileinput" type="number" id="search" placeholder="Enter Mobile Number">
+
+            <h3 >Location:</h3>
+            <input class="locationinput"  type="text" id="search" placeholder="Enter Location"><br>
+
+            <button class="submit">Submit</button>
+
+
+          
+        </form>
+        <center>
+        <table class="new" border="1" style="margin-top: 20px;">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Mobile</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody id="CustomerData">
+                <!-- New entries will be added here -->
+            </tbody>
+        </table>
+    </center>
+    </div>
+
+
+
+
+<!--Footer-->
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box1">
+            <h2 class="headingText">Trendy Threads</h2>
+            <p>Online shopping is a form of electronic commerce that allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app</p>
+            <div class="footer-icon-container">
+                <i class="fa-brands fa-instagram" style="color: #ffff;"></i>
+                <i class="fa-brands fa-twitter"   style="color: #ffff;" ></i>
+                <i class="fa-brands fa-facebook"  style="color: #ffff;" ></i>
+            </div>
+        </div>
+    </div>
+    <p>@2024 TrendyThread.com</p>
+</div>
+
+</html>
+
+<!--My script-->
+<script src="contect.js"></script>
